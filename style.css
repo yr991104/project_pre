@@ -1,0 +1,35 @@
+img{
+    height: 10vh;
+    width: auto;
+    margin: 1vh;
+}
+#logo{
+    height: 10vh;
+    font-size: 5.3vh;
+    line-height: 5vh;
+    margin: 1vh;
+    font-family: 'East Sea Dokdo', cursive;
+}
+.logo_area{
+    display: grid;
+    height: 10vh;
+    grid-template-columns: auto 1fr;
+}
+.select{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2vh;
+    text-align: center;
+}
+.space{
+    height: 20vh;
+}
+button{
+    font-size: 4.5vh;
+    width: 30vw;
+    height: 10vh;
+    border-radius: 2vh;
+    border: 0.5vh green solid;
+    background-color: palegreen;
+    font-family: 'Yeon Sung', cursive;
+}
